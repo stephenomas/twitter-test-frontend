@@ -38,7 +38,7 @@ const Verify = () => {
         const keyParam = params.get('code');
         send_otp(keyParam)
 
-      }, []);
+      }, [location.search]);
 
 
 return (
